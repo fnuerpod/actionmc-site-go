@@ -1,0 +1,46 @@
+<div class="main--container">
+    <div class="page--content">
+        <br /><br /><br />
+        
+        <h2>Dynamic Configuration Manager</h2>
+        <form name="input" action="/admin/superuser/dyn_cfg/submit" method="POST">
+        <h3>Allow User Registration</h3>
+            Allow new users to register to this site?
+            <br /><br />
+            <select name="user_reg" autocomplete="off">
+                %%USER_REGISTRATION%%
+            </select>
+            <br /><br /><hr />
+            <h3>Maintenance Mode</h3>
+            Blocks access to non-Admin endpoints for all users. Allows site to be worked on without stuff breaking.
+            <br /><br />
+            <select name="maintenance_mode" autocomplete="off">
+                %%MAINTENANCE_MODE%%
+            </select>
+            <br /><br /><hr />
+            <h3>ActionMGMT Version String</h3>
+            This tells the ActionMGMT mod whether or not it needs to update. Change this to reflect the latest version number of the plugin.<br /><br/>
+            <input type="text" name="actionmgmt_version" value="%%AMGMT_VS%%"></input>
+            <br/><br/><hr/>
+            <h3>Show Announcement Banner</h3>
+            Show banner on all pages that shows service announcements (will also reload all templates).
+            <br /><br />
+            <select name="announcement_banner_enable" autocomplete="off">
+                %%ANNOUNCEMENT_BANNER%%
+            </select>
+            <br /><br />
+            <h3>Announcement Banner Text</h3>
+            Text to show when announcement banner is enabled.<br/><br/>
+            <input type="text" name="announcement_text" value="%%ABAN_TEXT%%"></input><br /><br />
+            <hr />
+
+            <h2>Submit</h2>
+            Once you've made the appropriate changes to your accessibility buttons, submit your changes.<br /><br />
+            <input type="submit" value="Submit"/> 
+            <br />
+            <br />
+            </form>
+        <br />
+        <br />
+    </div>
+</div>

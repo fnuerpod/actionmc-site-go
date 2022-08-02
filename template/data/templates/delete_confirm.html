@@ -1,0 +1,29 @@
+<div class="main--container">
+    <div class="page--content">
+        <br /><br /><br />
+        
+        <h2>Delete Confirmation</h2>
+        By typing "%%DELETION_STRING%%" into the dialog box and clicking the button that says "Delete my Account", you acknowledge that the following information about you will be removed from our database:
+        <ul>
+            <li>Discord ID</li>
+            <li>ActionMC Username</li>
+            <li>Whitelist State (if you aren't banned)</li>
+            <li>Administrator Privilege Level (if you had any administrative privileges)</li>
+            <li>2FA Configuration (if you enabled 2FA)</li>
+        </ul>
+        Please note that if you are banned from ActionMC, we will store a checksum of your Discord ID to prevent you from being able to evade your ban.
+        <h3>Deletion Information</h3>
+        Discord ID: %%D_ID%%<br />
+        ActionMC Username: %%MC_USERNAME%%<br />
+        Whitelist State: %%STATE%%
+        <br />
+        <h2>Confirmation</h2>
+        <form name="input" action="/profile/delete/confirm" method="GET">
+            Deletion Confirmation (type %%DELETION_STRING%%): <input type="text" name="confirmation" value="" required/><br /><br />
+            <input type="submit" value="Delete my Account"/>
+            <td colspan="2"><button onclick="window.location.replace('/profile');">Go back!</button></td>
+            <br />
+            <br />
+        </form>
+    </div>
+</div>

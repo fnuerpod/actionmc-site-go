@@ -1,0 +1,7 @@
+{
+        "IsPreproduction": true,
+        "IsBeta": false,
+        "BindPort": "6483",
+        "CallBackURL_Production": "https://actionmc.ml/login/callback",
+        "CallBackURL_PreProduction": "https://b.actionmc.ml/login/callback"
+}

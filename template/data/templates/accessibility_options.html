@@ -1,0 +1,37 @@
+<div class="main--container">
+    <div class="page--content">
+        <br /><br /><br />
+        
+        <h2>Accessiblity Options</h2>
+        Select what accessibility options you want enabled.<br /><br /><hr />
+        <form name="input" action="/accessibility_options/change" method="GET">
+            <h3>Dyslexia Mode</h3>
+            Replaces all fonts used on the website with a dyslexia-friendly alternative. On browsers that do not support custom fonts, Comic Sans MS will be used.
+            <br /><br />
+            <select name="dyslexia_mode" autocomplete="off">
+                %%DYSLEXIA%%
+            </select>
+            <br /><br /><hr />
+            <h3>High Contrast Mode</h3>
+            Replaces all colors on the site with higher-contrast alternatives. Will also make other UI features stand out.
+            <br /><br />
+            <select name="high_contrast" autocomplete="off">
+                %%CONTRAST%%
+            </select>
+            <br /><br /><hr />
+            <h3>No Image Mode</h3>
+            Prevents images from being shown - please note that this doesn't currently stop them from being loaded by your browser.
+            <br /><br />
+            <select name="no_image" autocomplete="off">
+                %%NOIMAGE%%
+            </select>
+            <br /><br /><hr />
+
+            <h2>Submit</h2>
+            Once you've made the appropriate changes to your accessibility buttons, submit your changes.<br /><br />
+            <input type="submit" value="Submit"/> 
+            <br />
+            <br />
+
+    </div>
+</div>

@@ -1,0 +1,26 @@
+<div class="main--container">
+    <div class="page--content">
+        <br /><br /><br />
+        
+        <h2>Add a new service</h2>
+        <a href="/status">Change Statuses</a> | <a href="/status/admin/add_service">Add Service</a><br /><br />
+        <form name="input" action="/status/admin/add_service/submit" method="GET">
+            <table>
+                <tr>
+                    <td>Service IP:</td>
+                    <td><input type="text" name="ip" value="" required/></td>
+                    
+                </tr>
+                <tr>
+                    <td>Service Name:</td>
+                    <td><input type="text" name="sname" value="" required/></td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2"><p>Then click here: <input type="submit" value="Add Service"/> (make sure you haven't made any typos)</td>
+                </tr>
+            </table>
+            <br />
+            <br />
+    </div>
+</div>

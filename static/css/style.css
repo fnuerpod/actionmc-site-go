@@ -1,0 +1,141 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #e0d0d0;
+    background-image: url('../img/bg.gif');
+    font-family: sans-serif;
+    height: 100%;
+}
+
+a:link {
+	color: #aaf;
+}
+
+a:hover {
+	color: #fff;
+}
+
+a:visited {
+	color: #aaa;
+}
+
+a:active {
+	color: #ff0;
+}
+
+.header--logo__image {
+    padding-left: 5px;
+    width: 255px;
+    float: left;
+    border: 0;
+}
+
+.header--login {
+    float: right;
+	margin: 14px;
+	font-size: 18px;
+}
+
+.header--panel {
+    height: 48px;
+    background-image: url('../img/top-bg.gif');
+    background-color: #555;
+    border-bottom: 3px solid #000;
+}
+
+.footer--links {
+    text-align:center;
+    margin: 9px;
+    font-size: 13px;
+}
+
+.page--content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 854px;
+}
+
+th {
+text-align: left;
+}
+
+tr {
+text-align: left;
+}
+
+.main--container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.header--links {
+    float: left;
+    margin: 9px;
+    font-size: 13px;
+}
+
+/*.page--footer {
+    text-align: right;
+    font-size: 10px;
+    height: 10px;
+    padding-top:2px;
+    padding-bottom:2px;
+    position:fixed;
+    bottom:36px;
+    right:2px;
+}*/
+
+.page--footer {
+    text-align:center;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.admin--table {
+    border-spacing: 20px 10px;
+    border: 2px solid #e0d0d0;
+}
+
+.error-text {
+    color: #cf2a2a;
+}
+
+.announcement_banner {
+	background-color: orange !important;
+	text-align: center;
+	margin: 0;
+	margin-top: 1px;
+	
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white !important;
+}
+
+code {
+    background-color: #565656;
+    color: white;
+    border-radius: 2px;
+    font-size: 13px;
+    padding-left: 3px;
+    padding-right:3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.new-webbutton {
+	background-color: #000233;
+	height: 40px;
+	width: 100%;
+	
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.new-webbutton p {
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}

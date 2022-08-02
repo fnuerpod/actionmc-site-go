@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'OpenDyslexia';
+    src:  url('/static/font/OpenDyslexic-Regular.woff2') format('woff2'),
+          url('/static/font/OpenDyslexic-Regular.woff') format('woff');
+  }
+
+*, html, body {
+    font-family: 'OpenDyslexia', 'Comic Sans MS', Helvetica;
+}
+
+.header--links {
+    margin-top: 1px !important;
+}
+
+.header--login {
+    margin-top: 8px !important;
+}

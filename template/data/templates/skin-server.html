@@ -1,0 +1,42 @@
+<div class="main--container">
+    <div class="page--content">
+        <br /><br /><br />
+        <h2>ActionMC Skins Server</h2>
+        This website is equipped with a skin server which is desgined to bring skins and capes back to Minecraft 1.2.5. Unfortunately, you cannot use this skins server without performing some modifications first.<br /><br />
+        There are two ways to use our skin server:
+        <h3>Hosts File Modification (advised for older computers) </h3>
+        This method requires you to modify a system file. We are not liable for damages you may cause by following this guide.
+
+        <ol>
+            <li>Find your hosts file.<br/><br/>
+                For Windows users, this is located at <code>C:/Windows/System32/drivers/etc/hosts</code> (you may have to run Notepad as Administrator to edit this file).<br />
+                For Linux and macOS users, this is located at <code>/etc/hosts</code>.<br /><br />
+                If your OS is not listed, seek advice from the site administration or use <a href="https://google.com">Google</a>.<br /><br /></li>
+            <li>Add the following line to your hosts file:<br /><br />
+                <code>107.21.82.253 s3.amazonaws.com</code><br /><br/>
+                This will redirect all requests to <code>s3.amazonaws.com</code> to our skins server.<br />
+                <strong>MAKE SURE TO REMOVE THIS LINE AFTER PLAYING AS IF YOU DON'T REMOVE IT, SOME OTHER WEBSITES OR GAMES MAY BREAK AS THEY MAY ALSO RELY ON AMAZON WEB SERVICES.</strong>
+            </li>
+        </ol>
+
+        <h3>ActionMC JAR Mod (recommended for newer computers)</h3>
+        This method relies on replacing files inside Minecraft 1.2.5's JAR file in order to work.<br /><br />
+        It is advised to use MultiMC to modify the JAR file as it makes management of modifications much easier.<br /><br />
+        <h4>MultiMC Installation</h4>
+        <ol>
+          <li>Install Minecraft 1.2.5 under MultiMC.<br /><br />
+              You must have Minecraft 1.2.5 installed in a profile in MultiMC.</li><br /><br />
+          <li>Click "Edit Instance" and go to the Version tab.<br /><br />
+              The version tab allows you to modify the JAR file in many ways such as adding JAR mods like this one or adding Minecraft Forge.</li><br /><br />
+          <li>Click "Add to Minecraft.jar" and browse to the ZIP file you just downloaded from GitHub.<br /><br />
+              Do not extract the JAR file as you cannot import a folder. <strong>It must be in a ZIP file.</strong></li><br /><br />
+          <li>Select it and then press Launch.<br /><br />
+              The game should now launch with the ActionMC JAR Mod in place. You can verify this by checking the bottom left of the title screen and verifying that "ActionMC JAR Mod" is displayed.</li><br /><br />
+        </ol>
+        <h4>Download</h4>
+        <a href="/leaving?url=https://github.com/notvelleda/actionmc-mod/releases">Download the ActionMC JAR Mod</a>
+        <br />
+        <br />
+
+    </div>
+</div>

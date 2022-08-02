@@ -1,0 +1,37 @@
+<div class="main--container">
+    <div class="page--content">
+        <br /><br /><br />
+        
+        <h2>Superuser Administration Panel</h2>
+        This should contain all controls necessary to administrate this website as a superuser.
+        <br /><br /><strong>Some of the features here, if used improperly, could cause the server to crash or, worse, cause data loss. Make sure you fully understand what you are doing before executing these commands.</strong><br />
+        <h3>Templates</h3>
+        <a href="/admin/superuser/template_reload">Dynamically Reload Templates</a><br /><br />
+        <h3>Dynamic Configuration</h3>
+        Click <a href="/admin/superuser/dyn_cfg">here</a> to enter the Dynamic Configuration Manager.
+
+        <h3>Server Health</h3>
+        %%CPU_RAM_ALERT%%
+        <table class="admin--table">
+            <tr>
+                <th>RAM Usage</th>
+                <td>%%MEM_CUR%%/%%MEM_SYS%%</td>
+            </tr>
+            <tr>
+                <th>CPU Usage</th>
+                <td>%%CPU_PER%%&#37;</td>
+            </tr>
+            <tr>
+                <th>Template Generation Average</th>
+                <td>0.41ms</td>
+            </tr>
+        </table>
+        <br />
+        <br />
+        <i>This page will never provide a method of direct interaction with the database for security reasons. If you wish to interact with the database directly, do it on the server and use the administrative features above.</i>
+
+        
+        <br />
+        <br />
+    </div>
+</div>

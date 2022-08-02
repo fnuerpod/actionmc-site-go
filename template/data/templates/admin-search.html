@@ -1,0 +1,38 @@
+<div class="main--container">
+    <div class="page--content">
+        <br /><br /><br />
+        
+        <h2>Administration Panel - Search</h2>
+        <a href="/admin/user/page/1">Awaiting Whitelist</a> | <a href="/admin/user/page/2">Whitelisted</a> | <a href="/admin/user/page/3">Temporarily Banned</a> | <a href="/admin/user/page/4">Banned</a> | <a href="/admin/user/page/5">Contact on Discord</a> || <a href="/admin/user">View All</a> | <a href="/admin/user/search">Search</a><br /><br />
+        <form name="input" action="/admin/user/search/id" method="POST">
+            <h3>Search by Discord ID</h3>
+            <table>
+                <tr>
+                    <td>Discord ID:</td>
+                    <td><input type="text" name="id" value="" required/></td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Search"/></td>
+                </tr>
+            </table>
+            <br />
+            <br />
+        </form>
+        <form name="input" action="/admin/user/search/username" method="POST">
+            <h3>Search by Username</h3>
+            <table>
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" name="username" value="" required/></td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Search"/></td>
+                </tr>
+            </table>
+            <br />
+            <br />
+        </form>
+    </div>
+</div>

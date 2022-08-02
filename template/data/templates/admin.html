@@ -1,0 +1,22 @@
+<div class="main--container">
+    <div class="page--content">
+        
+        <br /><br /><br />
+        <h2>Administration Panel - %%PAGE%%</h2>
+        <a href="/admin/user?state=1">Awaiting Whitelist</a> | <a href="/admin/user?state=2">Whitelisted</a> | <a href="/admin/user?state=3">Temporarily Banned</a> | <a href="/admin/user?state=4">Banned</a> | <a href="/admin/user?state=5">Not Enough Activity</a> | <a href="/admin/user?state=6">Not on the Discord</a> | <a href="/admin/user?state=7">Contact Us</a>  || <a href="/admin/user">View All</a> | <a href="/admin/user/search">Search</a><br /><br />
+        <table class="admin--table">
+            <tr>
+                <th>Username</th>
+    <th>Discord ID</th>
+                <th>Current State</th>
+                <th>Controls</th>
+            </tr>
+            %%ADMINTABLE%%
+        </table>
+        <br />
+
+        <i>Total: %%TOTAL%%</i>
+
+        <br />
+    </div>
+</div>

@@ -1,0 +1,36 @@
+<div class="main--container">
+    <div class="page--content">
+        <br /><br /><br />
+        
+        
+        <center>
+          <h2>Image Gallery</h2>
+          <hr /><br />
+          <h3>%%IMAGE_NAME%%</h3>
+          <p><i>Credit: %%IMAGE_CREDIT%%</i></p>
+          <img src="%%IMAGE_URL%%" width="640" height="385" /><br /><br />   
+          
+          <p><i>%%IMAGE_DESCRIPTION%%</i></p>
+          <Br />
+          <hr /><br />
+          <div class="image-movement">
+            <form action="/gallery" style="display:inline;">
+              <textarea name="image" value="%%IMAGE_PREVIOUS_URL%%" style="display:none;">%%IMAGE_PREVIOUS_URL%%</textarea>
+              <input type="submit" value="&lt;" %%PREVIOUS_DISABLED%%/>
+            </form>
+            
+            Image %%IMAGE_CURRENT%%/%%IMAGE_MAX%%
+             <form action="/gallery" style="display:inline;">
+                <textarea name="image" value="%%IMAGE_NEXT_URL%%" style="display:none;">%%IMAGE_NEXT_URL%%</textarea>
+                <input type="submit" value="&gt;" %%NEXT_DISABLED%%/>
+              </form>
+           
+
+
+          </div>     
+          <br />
+        </center>
+    </div>
+</div>
+
+

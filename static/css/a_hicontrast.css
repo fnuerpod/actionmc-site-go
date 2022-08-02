@@ -1,0 +1,57 @@
+.header--panel {
+    background-color: black !important;
+    background-image: none !important;
+}
+
+*, html, body {
+    background-image: none !important;
+    background-color: black !important;
+    font-size: 105% !important;
+
+    color: white !important;
+}
+
+.header--panel {
+    border-bottom: 4px solid #A2A2a2 !important;
+    padding-bottom: 0px;
+    padding-top: 6px;
+
+    height: 79px !important;
+}
+
+.header--logo__image {
+    padding-top: 12px;
+}
+
+a {
+    color: cyan !important;
+}
+
+a:hover {
+    color: lime !important;
+}
+
+a:visited {
+    color: red !important;
+}
+
+.header--login {
+    padding-top: 1px;
+    font-size: 150% !important;
+}
+
+.footer--panel {
+    border-top: 4px solid #A2A2a2 !important;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.page--footer {
+    line-height: 1.9;
+}
+
+.page--content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 889px !important;
+}

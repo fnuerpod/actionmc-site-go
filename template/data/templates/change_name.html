@@ -1,0 +1,25 @@
+<div class="main--container">
+    <div class="page--content">
+        <br /><br /><br />
+        
+        <h2>Change your account username</h2>
+        <form name="input" action="/profile/edit/username/submit" method="GET">
+            <table>
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" name="username" value="%%CURRENT_USERNAME%%" required/></td>
+                    
+                </tr>
+                <input type="text" name="csrf" value="%%CSRF_STRING%%" style="display:none;" required />
+                <tr>
+                    <td>Discord ID:</td>
+                    <td>%%D_ID%%</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><p>Then click here: <input type="submit" value="Register"/> (make sure you haven't made any typos)</td>
+                </tr>
+            </table>
+            <br />
+            <br />
+    </div>
+</div>

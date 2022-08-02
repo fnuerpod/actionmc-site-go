@@ -1,0 +1,33 @@
+# ignore all databases
+# if you publish your database to git thats kinda a gdpr issue!
+actionid.db
+actionid.db-journal
+
+# ignore all backup files
+# again with the whole GDPR thing, if you upload a backup to git thats
+# yet another GDPR issue.
+*.back
+
+# ignore go test files
+*.test
+
+# ignore compiled build executable.
+actionmc-site-go*
+logindata.txt
+
+# ignore config files
+config.txt
+
+# ignore capes, skins.
+ugc_store/skin
+ugc_store/cape
+
+# ignore latest.jar
+ugc_store/latest.jar
+# ignore log data (potential GDPR risk.)
+log_*.txt
+# ignore dynamic configurations.
+dynconf.gob
+
+# ignore cpu profiles
+*.prof
